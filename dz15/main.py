@@ -6,6 +6,7 @@ import string
 
 # ----- Крок 4 -----
 # movie = Player(name->required, link-required)
+# ------------------
 movie = Player('test','https://google.com')
 movie.play()
 
@@ -23,7 +24,8 @@ for count in range(26):
         print(f'Folder -{dir_path}- alredy exist.')
 
 # ----- Крок 7 -----
-# newFilm = Film(film_name->required, film_year->required, film_descr->optional, film_writer->optional, storge_address->optional
+# newFilm = Film(film_name->required, film_year->required, film_descr->optional, film_writer->optional)
+# ------------------
 film_name = 'test'
 film_year = 1999
 newFilm = Film(film_name,film_year)
